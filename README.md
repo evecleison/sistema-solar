@@ -2,7 +2,7 @@
 Este projeto é um trabalho acadêmico da disciplina de Computação Gráfica e apresenta uma simulação interativa em 3D do Sistema Solar. A aplicação foi desenvolvida utilizando Three.js para a renderização gráfica e Vite para otimização do bundling e agilidade no processo de desenvolvimento.
 
 **Autor**
-- Evecleison Albuquerque do Nascimento - 494131
+- Evecleison Albuquerque do Nascimento
 
 Siga os passos abaixo para configurar e executar o projeto em sua máquina local:
 
