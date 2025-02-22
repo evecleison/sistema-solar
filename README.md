@@ -19,7 +19,7 @@ Siga os passos abaixo para configurar e executar o projeto em sua máquina local
 
    Use o Git para clonar este repositório em sua máquina local.
    ```shell
-   git clone https://github.com/evecleisonce/Sistema_solar.git
+   git clone https://github.com/evecleison/Sistema_solar.git
 
 3. **Abra o projeto pelo Visual Studio Code**
 
