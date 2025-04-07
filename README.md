@@ -1,4 +1,4 @@
-# Sistema_solar
+# sistema-solar
 Este projeto é uma atividade acadêmica da disciplina de Computação Gráfica e apresenta uma simulação interativa em 3D do sistema solar. A aplicação foi desenvolvida utilizando Three.js para a renderização gráfica e Vite para otimização do bundling e do desempenho da aplicação.
 
 **Autor**
