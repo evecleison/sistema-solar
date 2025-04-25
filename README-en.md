@@ -1,4 +1,4 @@
-# Sistema Solar
+## Sistema Solar
 
 📌 Este documento está escrito em inglês. Para a versão em português do Brasil, veja o arquivo [README.md](/README.md).
 
@@ -6,11 +6,11 @@ Most of the variable names, functions, comments, etc., in this application are w
 
 👉 [See the live project](https://evecleison.github.io/sistema-solar/)
 
-## Project Description
+# Project Description
 
 This project is an academic activity for the Computer Graphics course and features an interactive 3D simulation of the solar system. The application was developed using Three.js for graphical rendering and Vite to optimize bundling and performance.
 
-## 🚀 How to Install and Run
+# 🚀 How to Install and Run
 
 1. **Install Node.js**
 
