@@ -32,9 +32,9 @@ scene.add(luzAmbiente);
 // Adicionando cenário
 const loader = new THREE.CubeTextureLoader();
 const cenario = loader.load([
-  '/textures/skybox/px.png', '/textures/skybox/nx.png',
-  '/textures/skybox/py.png', '/textures/skybox/ny.png',
-  '/textures/skybox/pz.png', '/textures/skybox/nz.png',
+  './textures/skybox/px.png', './textures/skybox/nx.png',
+  './textures/skybox/py.png', './textures/skybox/ny.png',
+  './textures/skybox/pz.png', './textures/skybox/nz.png',
 ]);
 scene.background = cenario;
 
@@ -60,11 +60,11 @@ celestialBodies.forEach((dados) => {
   // Formação dos corpos celestes
   if(!dados.isSun){
     material = new THREE.MeshStandardMaterial({
-      map: textureLoader.load(`/textures/${dados.texture}`),
+      map: textureLoader.load(`./textures/${dados.texture}`),
     });
   }else{
     material = new THREE.MeshBasicMaterial({
-      map: textureLoader.load(`/textures/${dados.texture}`),
+      map: textureLoader.load(`./textures/${dados.texture}`),
     });
   }
   const geometry = new THREE.SphereGeometry(dados.raio, 32, 32);
@@ -99,7 +99,7 @@ celestialBodies.forEach((dados) => {
   });
   
   if (dados.hasRings) {
-    const anelTexture = textureLoader.load('/textures/anelSaturno.jpg');
+    const anelTexture = textureLoader.load('./textures/anelSaturno.jpg');
     const anelMaterial = new THREE.MeshStandardMaterial({ map: anelTexture, side: THREE.DoubleSide });
     const anelGeometry = new THREE.RingGeometry(7, 12, 64);
     const anel = new THREE.Mesh(anelGeometry, anelMaterial);
